@@ -1,0 +1,224 @@
+{
+    "about": {
+      "notfound": "Définissez l'alias de l'article sur `about` pour créer une page à propos",
+      "title": "À propos"
+    },
+    "alert": "Alerte",
+    "alias": "Alias",
+    "article": {
+      "delete": {
+        "confirm": "Êtes-vous sûr de vouloir supprimer cet article ?",
+        "title": "Supprimer l'article"
+      },
+      "search": {
+        "placeholder": "Veuillez entrer des mots-clés",
+        "title": "Recherche",
+        "title$keyword": "Recherche : {{keyword}}"
+      },
+      "title": "Articles",
+      "top": {
+        "confirm": "Êtes-vous sûr de vouloir mettre cet article en avant ?",
+        "success": "Mise en avant réussie",
+        "title": "Mettre en avant"
+      },
+      "total_short$count_one": "{{count}} article",
+      "total_short$count_other": "{{count}} articles",
+      "total$count_one": "{{count}} article au total",
+      "total$count_other": "{{count}} articles au total",
+      "untop": {
+        "confirm": "Êtes-vous sûr de vouloir retirer cet article de la mise en avant ?",
+        "success": "Retrait de la mise en avant réussi",
+        "title": "Retirer de la mise en avant"
+      }
+    },
+    "avatar": {
+      "url": "URL de l'avatar"
+    },
+    "cancel": "Annuler",
+    "clear": "Effacer",
+    "close": "Fermer",
+    "comment": {
+      "empty": "Le commentaire ne peut pas être vide",
+      "placeholder": {
+        "title": "Dites quelque chose..."
+      },
+      "submit": "Soumettre le commentaire",
+      "success": "Commentaire soumis avec succès",
+      "title": "Commentaire"
+    },
+    "comparison": "Comparaison",
+    "confirm": "Confirmer",
+    "content": {
+      "empty": "Le contenu ne peut pas être vide"
+    },
+    "count": {
+      "pv": "Vues de page",
+      "uv": "Visiteurs"
+    },
+    "create": {
+      "success": "Création réussie",
+      "title": "Créer"
+    },
+    "created_at": "Publié le",
+    "delete": {
+      "comment": {
+        "confirm": "Êtes-vous sûr de vouloir supprimer ce commentaire ?",
+        "title": "Supprimer le commentaire"
+      },
+      "confirm": "Êtes-vous sûr de vouloir supprimer ?",
+      "success": "Suppression réussie",
+      "title": "Supprimer"
+    },
+    "description": "Description",
+    "draft": "Brouillon",
+    "draft_bin": "Corbeille des brouillons",
+    "edit": "Modifier",
+    "error": {
+      "api_url": "API_URL dans les variables d'environnement de Pages doit être l'adresse du Worker. Veuillez vérifier si API_URL dans les variables d'environnement de Pages est correct.",
+      "api_url_slash": "API_URL dans les variables d'environnement de Pages doit être l'adresse du Worker. Veuillez vérifier si API_URL dans les variables d'environnement de Pages est correct et vous assurer qu'API_URL ne se termine pas par un slash (/).",
+      "github_callback": "L'URL de rappel GitHub OAuth doit être `https://<adresse du Worker>/user/github/callback`. Veuillez vérifier si l'URL de rappel GitHub OAuth est correcte."
+    },
+    "feed_card": {
+      "published$time": "Publié le {{time}}",
+      "updated$time": "Mis à jour le {{time}}"
+    },
+    "footer": {
+      "rss": "Lien d'abonnement RSS"
+    },
+    "friends": {
+      "apply": "Demander un lien d'ami",
+      "create": "Créer un lien d'ami",
+      "left": "Parti temporairement",
+      "my_apply": "Mes demandes",
+      "review": {
+        "accepted": "Accepté",
+        "rejected": "Rejeté",
+        "waiting": "En attente d'examen"
+      },
+      "title": "Amis"
+    },
+    "github_login": "Connexion GitHub",
+    "hashtags": "Hashtags",
+    "home": "Accueil",
+    "index": {
+      "back": "Retour à l'accueil",
+      "empty": {
+        "title": "L'index est vide"
+      },
+      "title": "Index"
+    },
+    "listed": "Répertorié dans les articles",
+    "login": {
+      "oauth_only": "Veuillez vous connecter pour continuer",
+      "password": {
+        "placeholder": "Veuillez entrer votre mot de passe"
+      },
+      "required": "Veuillez vous connecter pour continuer",
+      "title": "Connexion",
+      "username": {
+        "placeholder": "Veuillez entrer votre nom d'utilisateur"
+      }
+    },
+    "next": "Page suivante",
+    "preview": "Aperçu",
+    "previous": "Page précédente",
+    "publish": {
+      "success": "Publication réussie",
+      "title": "Publier"
+    },
+    "reload": "Réessayer",
+    "save": "Enregistrer",
+    "settings": {
+      "cache": {
+        "clear": {
+          "confirm": {
+            "desc": "Le cache est utilisé pour réduire la fréquence d'accès à la base de données, veuillez essayer de vider le cache uniquement en cas d'erreurs de cache.",
+            "title": "Confirmer la vidange du cache ?"
+          },
+          "desc": "Vider tous les fichiers de cache",
+          "title": "Vider le cache"
+        },
+        "clear_failed$message": "Échec de la vidange du cache : {{message}}"
+      },
+      "counter": {
+        "enable": {
+          "desc": "Activer les statistiques des vues et des visiteurs de l'article",
+          "title": "Activer les statistiques de trafic"
+        }
+      },
+      "favicon": {
+        "desc": "Définir l'icône (Favicon) affichée dans la barre d'adresse du navigateur",
+        "title": "Favicon"
+      },
+      "footer": {
+        "desc": "Définir le contenu du pied de page du site (HTML)",
+        "title": "Pied de page"
+      },
+      "friend": {
+        "apply": {
+          "desc": "Autoriser d'autres utilisateurs à demander des liens d'amis (nécessite une validation)",
+          "title": "Demande de lien d'ami"
+        },
+        "health": {
+          "desc": "Activer le contrôle d'accessibilité pour les liens d'amis",
+          "title": "Surveillance de la santé des liens d'amis",
+          "ua": {
+            "desc": "Définir l'agent utilisateur utilisé pour le contrôle d'accessibilité des liens d'amis, par défaut 'Rin-Check/1.0'",
+            "title": "Agent utilisateur de surveillance de la santé des liens d'amis"
+          }
+        },
+        "title": "Paramètres des liens d'amis"
+      },
+      "get_config_failed$message": "Échec de l'obtention de la configuration, {{message}}",
+      "import_failed$message": "Échec de l'importation, {{message}}",
+      "import_result": "Résultat de l'importation",
+      "import_skipped": "Importation ignorée",
+      "import_skipped_item$title$reason": "《{{title}}》- {{reason}}",
+      "import_success$success$skipped": "Importation réussie, {{success}} articles importés, {{skipped}} articles ignorés",
+      "other": {
+        "title": "Autres paramètres"
+      },
+      "rss": {
+        "desc": "Activer le lien d'abonnement RSS dans le pied de page du site",
+        "title": "Lien d'abonnement RSS"
+      },
+      "title": "Paramètres",
+      "update_failed$message": "Échec de la mise à jour : {{message}}",
+      "wordpress": {
+        "desc": "Télécharger le fichier XML exporté depuis WordPress",
+        "title": "Importer depuis WordPress"
+      }
+    },
+    "sitename": "Nom du site",
+    "status": "Statut",
+    "summary": "Résumé",
+    "tags": "Tags",
+    "timeline": "Chronologie",
+    "title": "Titre",
+    "title_empty": "Le titre ne peut pas être vide",
+    "top": {
+      "title": "Mettre en avant"
+    },
+    "unlisted": "Non répertorié",
+    "untitled": "Sans titre",
+    "untop": {
+      "title": "Retirer de la mise en avant"
+    },
+    "update": {
+      "success": "Mise à jour réussie",
+      "title": "Mettre à jour"
+    },
+    "update$sth": "Mettre à jour {{sth}}",
+    "upload": {
+      "failed": "Échec du téléchargement",
+      "failed$size": "Échec du téléchargement, la taille du fichier ne peut pas dépasser {{size}} Mo",
+      "title": "Télécharger"
+    },
+    "uploading": "Téléchargement en cours...",
+    "url": "URL du site",
+    "visible": {
+      "self_only": "Visible uniquement par soi-même"
+    },
+    "writing": "Écriture",
+    "year$year": "{{year}}"
+  
