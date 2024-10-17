@@ -1,6 +1,6 @@
 # Rin
 
-English | [简体中文](./README_zh_CN.md)
+English | [Français](./README_fr_FR.md)
 
 ![Cover](https://repository-images.githubusercontent.com/803866357/958bc2c1-1703-4127-920c-853291495bdc)
 
