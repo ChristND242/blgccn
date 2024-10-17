@@ -44,6 +44,6 @@ jobs:
           S3_CACHE_FOLDER: ${{ vars.S3_CACHE_FOLDER }}
           S3_FORCE_PATH_STYLE: ${{ vars.S3_FORCE_PATH_STYLE }}
         run: |
-          cd blgccn/
+          cd Rin/
           bun install --frozen-lockfile
           bun scripts/render.ts
