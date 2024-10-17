@@ -1,4 +1,4 @@
-# Rin
+# CCN
 
 English | [Français](./README_fr_FR.md)
 
