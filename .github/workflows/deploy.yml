@@ -49,6 +49,6 @@ jobs:
           RSS_TITLE: ${{ vars.RSS_TITLE }}
           RSS_DESCRIPTION: ${{ vars.RSS_DESCRIPTION }}
         run: |
-          cd Ccn/
+          cd CCN/
           bun install --frozen-lockfile
           bun scripts/migrator.ts
